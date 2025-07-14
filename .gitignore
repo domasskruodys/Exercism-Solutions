@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Swift build products
+.build/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
