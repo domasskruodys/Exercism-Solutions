@@ -1,3 +1,8 @@
+# What I learned with this exercise.
+I realised I could just apply an `.uppercased()` method to the string directly, instead of mapping it.
+I learned about the `.isLetter` and `.isPunctuation` methods.
+I learned about the `.allSatisfy` method, and how using an `inserted` check on a set can be used when using `.insert`, as it returns a tuple with a value "inserted" that can then be checked.
+
 # Isogram
 
 Welcome to Isogram on Exercism's Swift Track.

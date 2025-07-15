@@ -4,7 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "Isogram",
-    // Add the platforms parameter here
     platforms: [
         .macOS(.v12),
         .iOS(.v15)

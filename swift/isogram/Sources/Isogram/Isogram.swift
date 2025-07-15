@@ -1,7 +1,7 @@
 func isIsogram(_ string: String) -> Bool {
     let isogram = string
+        .uppercased()
         .filter { $0.isLetter }
-        .map { $0.uppercased() }
-    
+
     return isogram.count == Set(isogram).count
 }
