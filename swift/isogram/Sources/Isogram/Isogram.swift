@@ -1,16 +1,7 @@
 func isIsogram(_ string: String) -> Bool {
-    var isogramSet = Set<Character>()
+    let isogram = string
+        .filter { $0.isLetter }
+        .map { $0.uppercased() }
     
-    for letter in string.uppercased() {
-        
-        guard letter.isLetter else { continue }
-        
-        if isogramSet.contains(letter) {
-            return false
-            
-        } else {
-            isogramSet.insert(letter)
-        }
-    }
-    return true
+    return isogram.count == Set(isogram).count
 }
