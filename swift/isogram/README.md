@@ -1,3 +1,7 @@
+# What I learned with this exercise.
+I realised I could just apply an .uppercased() method to the string directly, instead of mapping it.
+I learned about the .isLetter and .isPunctuation methods.
+
 # Isogram
 
 Welcome to Isogram on Exercism's Swift Track.
